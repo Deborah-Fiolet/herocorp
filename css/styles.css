@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #d3d3d3;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+    border: 1px solid #000;
+}
+
+.big-logo{
+    margin:0 auto 20px auto;
+    height: 250px;
+    background-image: url(../images/hc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.little-logo{
+    margin: auto;
+    display: block;
+    width: 12%;
+    padding: 1.9rem 0;
+}
+
+h1,h2,h3,.serie{
+    font-family: 'Oswald',sans-serif;
+}
+
+
+
+/* HERO CORP/SERIE TITLE */
+
+.main-title{
+    text-align: center;
+    border-top: 2px solid #8b0000;
+    border-bottom: 2px solid #8b0000;
+    margin: 1.25rem 0;
+    padding: 0.625rem;
+}
+
+.title{
+    font-size: 2.8rem;
+    display: inline-block;
+    padding: 0.6rem 0.3rem;
+}
+
+.serie{
+    font-size: 0.8rem;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+
+
+/* FIRST PART PRESENTATION */
+
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+.presentation-content{
+    background-color: #eeeeee;
+    padding: 3rem;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.first-paragraphe{
+    line-height: 1.2em;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1rem;
+}
+
+.second-paragraphe{
+    line-height: 1.1em;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 1.25rem 0;
+    text-align: center;
+}
+
+
+
+/* SYNOPSIS */
+
+.subsubtitle {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #8f0b0b;
+    margin-bottom: 1.25rem;
+}
+
+.synopsis-p{
+    line-height: 1.2em;
+    margin-bottom: 1rem;
+}
+
+
+
+/* ACTOR LIST */
+
+.actor-list{
+    text-align: center;
+    list-style: none;
+    padding: 1.9rem;
+}
+
+.actor-detail{
+    margin: 1.25rem;
+}
+
+.actor{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #ae5454;
+    background-color: #eeeeee;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 1.25rem;
+}
+
+.link{
+    display: block; /*permet de cliquer sur toute l'intégralité du lien*/
+}
+
+
+.actor:hover{
+    background-color: #bbbaba;
+}
+
+
+/* IMAGES SERIE */
+
+.content-img{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 40px 0;
+}
+
+.img-serie{
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    border: 1px solid #a3a3a3;
+    border-radius: 3rem;
+}
+
+.illustration{
+    width: 80%;
+    border-radius: 3rem;
+}
+
+
+.img-serie>h3,.img-serie>p{
+    margin: 10px 0;
+}
+
+/* KEYWORDS */
+
+.keyword-bloc{
+    margin: 20px 0 40px 0;
+}
+
+.keyword-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.keyword{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+
+    background-color: #d3d3d3;
+    border-radius: 1rem;
+   
+}
+
+/* FOOTER */
+
+.footer {
+    background-color:#eeeeee;
+    
+}
+
+.footer-p{
+    text-align: center;
+    padding: 20px 0 70px 0;
+    margin-top: 20px;
+}
